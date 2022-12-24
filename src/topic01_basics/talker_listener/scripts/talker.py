@@ -13,7 +13,7 @@ def talker():
     # name for our 'talker' node 
     rospy.init_node('talker', anonymous=True)
     #set the loop rate
-    rate = rospy.Rate(1) # 1hz
+    rate = rospy.Rate(2) # 1hz
     #keep publishing until a Ctrl-C is pressed
     i = 0
     while not rospy.is_shutdown():
